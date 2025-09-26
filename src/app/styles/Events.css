@@ -1,0 +1,59 @@
+.event-card {
+    background: rgba(15, 6, 144, 0.667);
+    color: white;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 0 4px 6px rgba(163, 9, 152, 0.884);
+    width: 500px;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: 'Orbitron', Arial, sans-serif;
+}
+
+.event-card:hover {
+    box-shadow: 0 0 20px #00fff7, 0 0 40px #ff00ee;
+    transform: translateY(-1px);
+}
+
+.event-card h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.event-card p {
+    font-size: 0.875rem;
+    opacity: 0.8;
+}
+
+.event-tags {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  
+.tag {
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    display: inline-block;
+}
+
+.event-card .time {
+    color: #0094f1;
+    font-size: 0.875rem;
+}
+
+.event-card .location {
+    font-size: 0.875rem;
+}
+
+.event-card .description {
+    font-size: 18px;
+    @media (max-width: 768px) {
+        font-size: 16px;
+    }
+}

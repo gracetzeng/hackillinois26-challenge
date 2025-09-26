@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a1a;
+  --foreground: #e410d6;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-position: center top;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    background-position: center 20%;
+  }
 }
 
 @theme inline {
@@ -14,13 +27,13 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: linear-gradient(135deg, #0f0c29, #302b63, #cdcde8);
+    --foreground: #f3f3f3;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Orbitron', Arial, Helvetica, sans-serif;
 }

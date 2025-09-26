@@ -1,0 +1,28 @@
+.filter-button {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #00fff7;
+  background: rgba(0, 255, 247, 0.1);
+  color: #00fff7;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s all;
+  box-shadow: 0 0 10px rgba(0, 255, 247, 0.5);
+  margin: 4px;
+}
+  
+.filter-button:hover {
+  background: rgba(0, 255, 247, 0.3);
+  box-shadow: 0 0 10px #00fff7, 0 0 20px #00fff7;
+}
+  
+.filter-button-selected {
+  background: #1100ff;
+  color: #fff;
+  box-shadow: 0 0 15px #1100ff, 0 0 25px #1100ff;
+}
+
+.filter-button-selected:hover {
+  background: #1100ff;
+  box-shadow: 0 0 10px #00fff7, 0 0 20px #00fff7;
+}
